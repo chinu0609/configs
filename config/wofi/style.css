@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('your-background-image.jpg'); /* Replace with your actual background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden; /* Ensure the background image doesn't scroll with the content */
+}
+
+/* Main window styling */
+window {
+    margin: 50px auto; /* Center the window horizontally */
+    max-width: 600px; /* Set a maximum width for the window */
+    background-color: rgba(11, 12, 14, 0.863); /* Light background with some opacity */
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(20px); /* Increased blur effect for a glass-like appearance */
+}
+
+/* Widget styling */
+.widget {
+    margin: 15px 0;
+    padding: 15px;
+    color: #ecf0f1;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1); /* Light background with some opacity */
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.widget:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity on hover */
+}
+
+/* Input styling */
+#input {
+    margin: 15px 0;
+    padding: 15px;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.1); /* Light background with some opacity */
+    outline: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#input:focus {
+    font-size: medium;
+    background-color: rgba(7, 7, 7, 0.2); /* Adjust opacity on focus */
+}
